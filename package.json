@@ -1,0 +1,31 @@
+{
+	"name": "polycat",
+	"version": "0.0.0",
+	"description": "handy polyfills, concatenated together",
+	"main": "polycat.js",
+	"scripts": {
+		"prepare": "node ./build",
+		"test": "exit 0"
+	},
+	"files": [
+		"polycat.js"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/chase-moskal/polycat.git"
+	},
+	"keywords": [],
+	"author": "Chase Moskal <chasemoskal@gmail.com>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/chase-moskal/polycat/issues"
+	},
+	"homepage": "https://github.com/chase-moskal/polycat#readme",
+	"devDependencies": {
+		"array.find": "1.0.7",
+		"es6-promise": "4.2.4",
+		"shelljs": "0.8.1",
+		"uglify-es": "3.3.9",
+		"whatwg-fetch": "2.0.4"
+	}
+}
